@@ -37,83 +37,81 @@
     
     <div class="sec1">
       <h1>PIZZA O'CLOCK</h1>
-      <P></P>
+      <P>Welcome to pizza o'clock</P>
     </div>
 
-    <div class="sec2">
-      <h1>PIZZA TYPE</h1>
+    <div id="form">
+        <form> 
+      <!-- <h1>PIZZA SIZE</h1> -->
       <div class="row">
-        <div class="col-md-6 col-sm-12 col-lg">
-          <form>Choose Type <br>
+        <div class="col-md-3 col-sm-12 col-lg">
+        
             <!-- <input list=""> -->
             <!-- <datalist id="typ"> -->
-              <select name="Type">
-                <option value="Regina"> Regina</option>
-                <option value="Chicken">Chicken </option>
-                <option value="Peri Peri"> Peri Peri </option>
-              </select>
-              <input type="submit">
+              <label for="size" style="color:peru">Size</label>
+              <select class="browser-default custom-select" id="size">
+                <option value="">Choose Size:</option>
+                <option value="1500"> Large</option>
+                <option value="1000">Medium </option>
+                <option value="500"> Small</option>
+              </select><br>
+              <!-- <input type="submit"> -->
             <!-- </datalist> -->
-          </form>
+
         </div>
-
-      </div>
-    </div>
-
-    <div class="sec3">
-        <h1>CRUSTS</h1>
-        <div class="row">
-          <div class="col-md-6 col-sm-12 col-lg">
-              <form>Add Crust: <br>
+              <div class="col-md-6 col-sm-12 col-lg">
+                <label for="Crust " style="color:peru">CRUST</label>
+                      <!-- <datalist id="crst"> -->
+                        <select class="browser-default custom-select" id="crust">
+                        <option value="">Add Crust:</option>
+                        <option value="150">deep dish</option>
+                        <option value="150">New York</option>
+                        <option value="100"> Neopolitan</option>
+                        <option value="100">Sicilian</option>
+                        <option value="50"> Focaccia</option>
+                      </select>
+                       <!-- <input type="submit"> -->
+                      <!-- </datalist> -->
+                    <!-- <input type="submit"> -->
+              </div>
+              <div class="col-md-6 col-sm-12 col-lg">
+                <label for="toppings" name="toppings" style="color: peru;"></label>
                   <!-- <input list=""> -->
-                  <!-- <datalist id="crst"> -->
-                    <select name="">
-                    <option value="Neopoliatan">Neopoliatan</option>
-                    <option value="New York"> New York</option>
-                    <option value="Deep Dish">Deep Dish</option>
-                    <option value="Focaccia">Focaccia </option>
-                    <option value="Flatbread"> Flatbread</option>
-                    <!-- <option value=""> </option> -->
+                  <!-- <datalist id="toppn"> -->
+                    <select class="browser-default custom-select" id="toppings">
+                    <option value="">Add Topping:</option>
+                    <option value="70">Gournet</option>
+                    <option value="70">balsamic</option>
+                    <option value="70">spinach</option>
+                    <option value="70">goatcheese </option>
+                    <option value="70">mushroom</option>
+                    <option value="70">cheese </option>
                   </select> 
-                  <input type="submit">
-                  <!-- </datalist> -->
-                </form>
-          </div>
-          <div class="col-md-6 col-sm-12 col-lg">
-            images
-          </div>
-
-          
-        </div>
-      </div>
-
-      <div class="sec4">
-          <h1>TOPPINGS</h1>
-          <div class="row">
-            <div class="col-md-6 col-sm-12 col-lg">
-                <form>Add Topping:<br>
-                    <!-- <datalist id="topp"> -->
-                      <select name="toppings">
-                      <option value="gourmet">gourmet</option>
-                      <option value="chicken">chicken</option>
-                      <option value="balsamic">balsamic </option>
-                      <option value="spinach"> spinach</option>
-                      <option value="goatcheese"> goatcheese</option>
-                      <option value="mushroom">  mushroom</option>
-                    </select>
-                     <input type="submit">
-                    <!-- </datalist> -->
-                  </form>
                   <!-- <input type="submit"> -->
-            </div>
-            <div class="col-md-6 col-sm-12 col-lg">
-              <img src="" alt="">
-            </div>
-            
-          </div>
+                  <!-- </datalist> -->
+              </div>
+              <div class="col-md-3">
+                <label for="quantity" style="color: peru;">Quantity</label>
+                <input class="form-control" type="text" name="pizza" id="quan" placeholder="0"
+                max="" min="0">
+        </div><br><br><br><br><br><br>
+        <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2"
+            onclick="getTotalAmount();"><strong>Checkout</strong></button>
         </div>
+    </form>
 
   </div>
+</div>
+  
+</div>
+
+
+</div>
+</div>
+<script src="js/script.js"></script>
+<script src="js/jquery.js"></script>
+</body>
+</html>
   
 </body>
 </html>
