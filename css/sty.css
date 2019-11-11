@@ -7,3 +7,13 @@
   font-family: 'Times New Roman', Times, serif;
   font-size:30px ;
 }
+body{
+  background-image: url(../img/im1.jpeg);
+  background-repeat:no-repeat;
+  height: 600%;
+  width: 100%;
+  position: cover;
+}
+.container{ 
+  background-color: cornflowerblue;
+}
