@@ -17,7 +17,8 @@ function getQuantity() {
 }
 function getTotalAmount() {
   var totalAmount = (getSizeValue() + getCrust() + getToppings()) * getQuantity();
-  alert("Order of" + getQuantity("")  +  " pizza has been processed"  +  ""  +  " The Total Amount is kshs "  +  (totalAmount)  +  ""  +  
+  alert("Order of" + getQuantity("")  +  " pizza has been processed"  +  ""  + 
+   " The Total Amount is kshs "  +  (totalAmount)  +  ""  +  
   " Thank you for shopping with us, welcome again.");
   prompt("enter your location")
   alert("You order will be delivered warmly!")
