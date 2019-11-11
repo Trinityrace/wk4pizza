@@ -6,7 +6,7 @@ Pizza palace website allows customers to order different pizza sizes with one or
 
 
 ###  Author.
-- (Trinity)(https://github.com/Trinityrace/wk4pizza)
+- [Trinity](https://github.com/Trinityrace/wk4pizza)
 
 
 ###  Technologies used.
