@@ -1,0 +1,9 @@
+/* navbar class */
+#navbar{
+  width: 500px;
+  content: 400px;
+  overflow: hidden;
+  background-color: blue;
+  font-family: 'Times New Roman', Times, serif;
+  font-size:30px ;
+}
