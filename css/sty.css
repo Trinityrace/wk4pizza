@@ -1,11 +1,12 @@
 /* navbar class */
 #navbar{
-  width: 500px;
+  width: 100%;
   content: 400px;
   overflow: hidden;
   background-color: blue;
   font-family: 'Times New Roman', Times, serif;
   font-size:30px ;
+  
 }
   /* 
 body{
@@ -16,6 +17,7 @@ body{
   position: cover;
 } */
 .container{ 
+  text-align: center;
   background-color: #3498DB;
 }
 
