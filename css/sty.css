@@ -8,6 +8,15 @@
   font-size:30px ;
   
 }
+.sec1{
+  border-radius: 10px;
+  background-color: lawngreen;
+  /* background-image:url(../img/Srr.png) ;
+  height: 100px;
+  width: 700px;
+  border-radius: 10%;
+  background-repeat:no-repeat ; */
+}
   /* 
 body{
   background-image: url(../img/im1.jpeg);

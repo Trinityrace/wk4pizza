@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+
+  <Script src="js/js.js"></Script>
+  <script src="js/jquery-3.4.1.js"></script>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/sty.css">
+
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" 
+  integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+
+  <link rel="stylesheet" 
+  href="https://cdnj.cloudflare.com/ajax
+  /libsfont-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body background="img/im1.jpeg">
+  <!-- <div class="img">
+  <img src="./img/im1.jpeg" alt="">
+  </div> -->
+    <!-- <div class="container-fluid">
+        <div id="order">
+          <button type="submit" form="form1" value="Submit" id="cart">CART&nbsp; &nbsp; <i class="fa fa-shopping-cart" aria-hidden="true"></i></button> 
+              <a href="index.html"><button type="submit" form="form1" value="Submit" id="btn2"> <i class="fa fa-home" aria-hidden="true"></i>&nbsp; HOME </button></a>
+              <h1>BEST PIZZA AT PIZZA O'CLOCK</h1>
+           </div>
+           <h3>PLACE ORDER!</h3>
+           <div class="row" id="pizz">  
+              <div class="col-md-4"  >
+                  <h4>CRUSTS</h4>
+                  <img src="https://bit.ly/2CyF9hb" height="250px" width="250px">
+                  <button type="submit" form="form1" value="Submit">ADD TO CART&nbsp; &nbsp; <i class="fa fa-shopping-bag" aria-hidden="true"></i>&nbsp; &nbsp;                     
+                  </button>
+              </div>
+              <div class="col-md-4">
+                  <h4>TOPPINGS</h4>
+                  <img src="https://bit.ly/32wmEVa" height="250px" width="250px">
+                  <button type="submit" form="form1" value="Submit" id="ok">ADD TO CART&nbsp; &nbsp; <i class="fa fa-shopping-bag" aria-hidden="true"></i>&nbsp; &nbsp;</button>
+              </div>
+              <div class="col-md-4">
+                <h4>SPECIAL OFFER PACKAGE</h4>
+                <img src="https://bit.ly/2WTu8QT" height="250px" width="250px">
+                  <button type="submit" form="form1" value="Submit" >ADD TO CART&nbsp; &nbsp; <i class="fa fa-shopping-bag" aria-hidden="true"></i>&nbsp; &nbsp;</button>
+                  </div>
+              </div> -->
+
+  <div class="container">
+    <div class="navbar" id="navbar">
+      <div class="dropdown">
+        <i class="fa fa-caret-down"></i>
+          <button id="dropbtn1" class="dropbtn">
+            <i class="fa fa-fw fa-home"></i> </button>
+            <div class="dropdown-content">
+              <a href="#"><i class="fa fa-fw fa-home"></i>Home</a>
+              <a href="#"><i class="fa fa-fw fa-search"></i>Products</a>
+              <a href="#"><i class="fa fa-fw fa-search"></i> Who We Serve</a>
+              <a href="#"><i class="fa fa-fw fa-user"></i>About Us</a>
+              <a href="#"><i class="fa fa-fw fa-envelope"></i>Contact Us</a>
+            </div>
+      </div>
+    </div>
+        
+    
+   <div class="sec1">
+      <!--<img src="./img/Srr.png"> -->
+      <h1>PIZZA O'CLOCK</h1>
+      <P>Welcome to pizza o'clock</P>
+    </div>
+
+    <div class="container">
+      <div class="jumbotron">
+        <div id="form">
+          <form> 
+          <!-- <h1>PIZZA SIZE</h1> 
+          <div class="row">
+          <div class="col-md-3 col-sm-12 col-lg">
+            <input list=""> -->
+            <!-- <datalist id="typ"> -->
+              <label for="size" style="color:red">Size</label>
+              <select class="browser-default custom-select" id="size">
+                <option value="">Choose Size:</option>
+                <option value="1500"> Large=1500</option>
+                <option value="1000">Medium </option>
+                <option value="500"> Small</option>
+              </select><br>
+            <!-- <input type="submit"> -->
+            <!-- </datalist> -->
+          <div class="col-md-6 col-sm-12 col-lg">
+            <label for="Crust " style="color:red">CRUST</label>
+              <!-- <input placeholder="add crust" list="opts"/> -->
+              <!-- <datalist id="crst"> -->
+              <select class="browser-default custom-select" id="crust" placeholder="add crust">              
+                <!-- <option value=""></option> -->
+                <option value="150">deep dish</option>
+                <option value="150">New York</option>
+                <option value="100"> Neopolitan</option>
+                <option value="100">Sicilian</option>
+                <option value="50"> Focaccia</option>
+              </select>
+              <!-- <input type="submit"> -->
+              <!-- </datalist> -->
+              <!-- <input type="submit"> -->
+          </div>
+          <div class="col-md-6 col-sm-12 col-lg">
+            <label for="toppings" name="toppings" style="color: red;">TOPPINGS</label>
+              <!-- <input list=""> -->
+              <!-- <datalist id="toppn"> -->
+              <select class="browser-default custom-select" id="toppings">
+                <option value=""></option>
+                <option value="70">Gournet</option>
+                <option value="70">balsamic</option>
+                <option value="70">spinach</option>
+                <option value="70">goatcheese </option>
+                <option value="70">mushroom</option>
+                <option value="70">cheese </option>
+              </select> 
+                  <!-- <input type="submit"> -->
+                  <!-- </datalist> -->
+          </div>
+          <div class="col-md-3">
+            <label for="quantity" style="color: red;">Quantity</label>
+              <input class="form-control" type="text" name="pizza" id="quantity" placeholder="0"
+                max="" min="0">
+          </div><br><br><br><br><br><br>
+          <button class="btn btn-success mx-auto d-block submit" type="submit" id="submit2"
+            onclick="getTotalAmount();"><strong>Checkout</strong></button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+<!-- </div>
+
+
+</div> -->
+<!-- </div> -->
+<script src="js/js.js"></script>
+<script src="js/jquery-3.4.1.js"></script>
+</body>
+</html>
+  
+</body>
+</html>
